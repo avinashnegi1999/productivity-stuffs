@@ -1,3 +1,5 @@
+![Progress](https://img.shields.io/badge/Progress-0%25-red?style=for-the-badge)
+
 # 🚀 Software Engineering Roadmap (Boot.dev Edition)
 
 > **Focus:** Backend-Leaning | Job-Oriented | Skill-Dependency Ordered
