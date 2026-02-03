@@ -22,7 +22,7 @@
 **Goal:** Become a "Basic Developer."
 *Prerequisite for everything else. Do not skip.*
 
-- [ ] [**Learn to Code in Python**](https://www.boot.dev/courses/learn-python) 🐍
+- [x] [**Learn to Code in Python**](https://www.boot.dev/courses/learn-python) 🐍
 - [ ] [**Learn Git**](https://www.boot.dev/courses/learn-git) 🐙
 - [ ] [**Learn Git 2 (Advanced)**](https://www.boot.dev/courses/learn-git-2) 🐙
 - [ ] [**Learn Linux**](https://www.boot.dev/courses/learn-linux) 🐧
