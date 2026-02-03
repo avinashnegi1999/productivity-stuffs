@@ -22,7 +22,7 @@
 
 - [ ] [**Learn to Code in Python**](https://www.boot.dev/courses/learn-python) 🐍
 - [ ] [**Learn Git**](https://www.boot.dev/courses/learn-git) 🐙
-- [ ] [**Learn Git 2**](https://www.boot.dev/courses/learn-git-2) 🐙
+- [ ] [**Learn Git 2 (Advanced)**](https://www.boot.dev/courses/learn-git-2) 🐙
 - [ ] [**Learn Linux**](https://www.boot.dev/courses/learn-linux) 🐧
 - [ ] [**Learn SQL**](https://www.boot.dev/courses/learn-sql) 💾
 
@@ -32,8 +32,8 @@
 **Goal:** Problem Solving & Interview Readiness.
 *Critical for passing technical screens.*
 
-- [ ] [**Learn Data Structures & Algorithms in Python**](https://www.boot.dev/courses/learn-data-structures-and-algorithms) 🧠
-- [ ] [**Learn Data Structures & Algorithms 2 in Python**](https://www.boot.dev/courses/learn-data-structures-and-algorithms-2) 🧠
+- [ ] [**Learn Data Structures & Algorithms in Python**](https://www.boot.dev/courses/learn-data-structures-and-algorithms-python) 🧠
+- [ ] [**Learn Data Structures & Algorithms 2 (Advanced)**](https://www.boot.dev/courses/learn-data-structures-and-algorithms-python) 🧠
 - [ ] [**Learn Functional Programming in Python**](https://www.boot.dev/courses/learn-functional-programming-python) ⚡
 
 ---
@@ -42,7 +42,7 @@
 **Goal:** "Software Engineer" Thinking.
 *Moving from coding scripts to building systems.*
 
-- [ ] [**Learn the HTTP Protocol in Go**](https://www.boot.dev/courses/learn-http) 🌐
+- [ ] [**Learn the HTTP Protocol**](https://www.boot.dev/courses/learn-http-clients-python) 🌐
 - [ ] [**Learn HTTP Servers in Python**](https://www.boot.dev/courses/learn-http-servers-python) 🖥️
 - [ ] [**Learn HTTP Clients in Python**](https://www.boot.dev/courses/learn-http-clients-python) 📡
 
@@ -59,9 +59,9 @@
 | **Maze Solver** | Python | Algorithms |
 | **Web Scraper** | Python | Data Collection |
 
-- [ ] [**Build a Bookbot**](https://www.boot.dev/courses/build-bookbot)
-- [ ] [**Build a Static Site Generator**](https://www.boot.dev/courses/build-static-site-generator)
-- [ ] [**Build a Maze Solver**](https://www.boot.dev/courses/build-maze-solver)
+- [ ] [**Build a Bookbot**](https://www.boot.dev/courses/build-bookbot-python)
+- [ ] [**Build a Static Site Generator**](https://www.boot.dev/courses/build-static-site-generator-python)
+- [ ] [**Build a Maze Solver**](https://www.boot.dev/courses/build-maze-solver-python)
 - [ ] [**Build a Web Scraper**](https://www.boot.dev/courses/build-web-scraper-python)
 
 ---
@@ -71,26 +71,26 @@
 *This separates students from junior engineers.*
 
 - [ ] [**Learn Docker**](https://www.boot.dev/courses/learn-docker) 🐳
-- [ ] [**Learn CI/CD with GitHub Actions**](https://www.boot.dev/courses/learn-cicd) ⚙️
-- [ ] [**Learn File Servers & CDNs (S3 + CloudFront)**](https://www.boot.dev/courses/learn-file-servers) ☁️
+- [ ] [**Learn CI/CD with GitHub Actions**](https://www.boot.dev/courses/learn-ci-cd-github-docker-golang) ⚙️
+- [ ] [**Learn File Servers & CDNs (S3 + CloudFront)**](https://www.boot.dev/courses/learn-file-servers-s3-cloudfront-golang) ☁️
 
 ---
 
 ## 🟣 Phase 6: Language & System Expansion
 **Goal:** Backend Specialization (Optional).
 
-- [ ] [**Learn Go**](https://www.boot.dev/courses/learn-go) 🐹
-- [ ] [**Learn HTTP Servers in Go**](https://www.boot.dev/courses/learn-http-servers-go) 🚀
-- [ ] [**Learn Pub/Sub Architecture (RabbitMQ)**](https://www.boot.dev/courses/learn-pub-sub) 📨
-- [ ] [**Learn Memory Management in C**](https://www.boot.dev/courses/learn-memory-management) 💾
+- [ ] [**Learn Go**](https://www.boot.dev/courses/learn-golang) 🐹
+- [ ] [**Learn HTTP Servers in Go**](https://www.boot.dev/courses/learn-http-servers-golang) 🚀
+- [ ] [**Learn Pub/Sub Architecture (RabbitMQ)**](https://www.boot.dev/courses/learn-pub-sub-rabbitmq) 📨
+- [ ] [**Learn Memory Management in C**](https://www.boot.dev/courses/learn-memory-management-c) 💾
 
 ---
 
 ## ⚪ Phase 7: Career & Modern Backend
 **Goal:** The Cutting Edge.
 
-- [ ] [**Learn Retrieval Augmented Generation (RAG)**](https://www.boot.dev/courses/learn-rag) 🤖
-- [ ] [**Build an AI Agent (Python)**](https://www.boot.dev/courses/build-ai-agent) 🧠
+- [ ] [**Learn Retrieval Augmented Generation (RAG)**](https://www.boot.dev/courses/learn-retrieval-augmented-generation) 🤖
+- [ ] [**Build an AI Agent (Python)**](https://www.boot.dev/courses/build-ai-agent-python) 🧠
 - [ ] [**Learn How to Find a Programming Job**](https://www.boot.dev/courses/learn-job-search) 💼
 
 ---
