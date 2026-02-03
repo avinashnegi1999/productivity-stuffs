@@ -1,0 +1,29 @@
+name: Update Progress Badge
+
+on:
+  push:
+    paths:
+      - 'README.md'  # Only run when README changes
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allows the robot to edit your file
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Update Script
+        run: python progress_script.py
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-updated progress badge"
+          file_pattern: README.md
