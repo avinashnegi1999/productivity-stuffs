@@ -1,136 +1,67 @@
-# 🚀 GitHub Resource Hub (Backend + Jobs + DSA)
+# 🌍 Jobs & Internships (Remote + Worldwide)
 
-A curated, categorized list of high-quality GitHub repositories for:
+Curated GitHub repositories for finding:
 
-* Backend Development (Python-focused)
-* Data Structures & Algorithms (DSA)
-* Remote Jobs & Internships
-* System Design
-
----
-
-# 📂 Backend Development (Python)
-
-## Frameworks
-
-* FastAPI → https://github.com/tiangolo/fastapi
-* Django REST Framework → https://github.com/encode/django-rest-framework
-
-## Boilerplates / Projects
-
-* Full Stack FastAPI Template → https://github.com/fastapi/full-stack-fastapi-template
-* RealWorld FastAPI Example → https://github.com/nsidnev/fastapi-realworld-example-app
-
-## Learning Resources
-
-* Awesome Python → https://github.com/vinta/awesome-python
-* Python Patterns → https://github.com/faif/python-patterns
+* Remote jobs
+* Global internships
+* Worldwide opportunities
 
 ---
 
-# 📂 Data Structures & Algorithms (DSA)
+# 💼 Remote Jobs
 
-## Core Learning
-
-* Coding Interview University → https://github.com/jwasham/coding-interview-university
-* The Algorithms (Python) → https://github.com/TheAlgorithms/Python
-
-## Practice / Sheets
-
-* Tech Interview Handbook → https://github.com/yangshun/tech-interview-handbook
-* LeetCode Patterns → https://github.com/seanprashad/leetcode-patterns
+* https://github.com/remoteintech/remote-jobs
+* https://github.com/lukasz-madon/awesome-remote-job
+* https://github.com/yanirs/established-remote
 
 ---
 
-# 📂 System Design
+# 🎓 Internships (Worldwide)
 
-## Learning
-
-* System Design Primer → https://github.com/donnemartin/system-design-primer
-
-## Advanced
-
-* Awesome Scalability → https://github.com/binhnguyennus/awesome-scalability
+* https://github.com/SimplifyJobs/Summer2026-Internships
+* https://github.com/pittcsc/Summer2026-Internships
+* https://github.com/codinasion/summer-internships
 
 ---
 
-# 📂 Remote Jobs
+# 🌐 Remote Internships
 
-## Job Lists
-
-* Remote Jobs → https://github.com/remoteintech/remote-jobs
-* Awesome Remote Job → https://github.com/lukasz-madon/awesome-remote-job
-
-## Companies
-
-* Established Remote → https://github.com/yanirs/established-remote
+* https://github.com/deepanshu1422/Open-Source-Internships
 
 ---
 
-# 📂 Internships
+# 🧩 Alternative Hiring (Global)
 
-## Active Internship Trackers
-
-* Summer 2026 Internships → https://github.com/SimplifyJobs/Summer2026-Internships
-* Pitt CSC Internships → https://github.com/pittcsc/Summer2026-Internships
-
-## Open Source Internships
-
-* Open Source Internships → https://github.com/deepanshu1422/Open-Source-Internships
+* https://github.com/poteto/hiring-without-whiteboards
 
 ---
 
-# 📂 Alternative Hiring (Less DSA-heavy)
+# 📌 How to Use
 
-* Hiring Without Whiteboards → https://github.com/poteto/hiring-without-whiteboards
+## Daily
 
----
-
-# 📌 How to Use This Repo
-
-## Daily (10–15 min)
-
-* Check internship repo updates
-* Apply early
+* Check internship repos
+* Apply early (within 48 hours)
 
 ## Weekly
 
-* Pick 5–10 companies and apply directly
-
-## Learning Flow
-
-1. Backend (FastAPI)
-2. DSA (Python)
-3. System Design
-4. Apply for jobs
+* Pick companies from lists
+* Apply directly on their careers page
 
 ---
 
-# 📊 Tracking (Optional Add-on)
+# ⚠️ Notes
 
-You can extend this with:
-
-* Applied: Yes / No
-* Date:
-* Status: Pending / Rejected / Accepted
+* These are **lists**, not job portals
+* Some links may expire
+* Consistency > quantity
 
 ---
 
-# ⚠️ Rules (Important)
+# 🎯 Focus Strategy
 
-* Do NOT star everything blindly
-* Only keep resources you will use
-* Review this list weekly and clean it
-
----
-
-# 🧠 Future Upgrade Ideas
-
-* Build a FastAPI dashboard from this Markdown
-* Auto-update using GitHub API
-* Add tags like: #backend #internship #remote
+* Target: Backend / Python roles
+* Prioritize: Remote-first companies
+* Track applications separately
 
 ---
-
-**Maintained by:** You
-**Goal:** Backend SDE (Python) + Remote Job
