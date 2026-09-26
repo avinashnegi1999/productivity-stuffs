@@ -1,720 +1,424 @@
-# 🎓 AMITY BCA COMPLETE RESOURCE GUIDE (Semester 4-6)
+# Roadmap
 
-**Program:** BCA Software Engineering Specialization (HCLTech)  
-**Current Status:** Semester 3 Complete | CGPA: 5.49  
-**Target:** 7.0+ CGPA | AWS Certified | ₹6-8 LPA Job  
-**Timeline:** Feb 2026 - May 2027
+Four years. From beginner to full-stack, AI and system design.
 
----
+- **Pace:** 15–20 hours a week. Four years is the plan. Five or six is fine.
+- **Breaks:** February and June. Exams first, light revision only.
+- **Method:** One skill at a time. Build a project at every step. Share everything in public.
 
-## 📊 CGPA TRAJECTORY
+| Phase | Months | Focus |
+|:--|:--|:--|
+| [1. Foundations](#phase-1-foundations) | 1–12 | Linux, Python, web, React, backend |
+| [2. Production and AI](#phase-2-production-and-ai) | 13–24 | Advanced web, cloud, AI APIs |
+| [3. Deep tech](#phase-3-deep-tech) | 25–36 | Machine learning, distributed systems, DSA |
+| [4. Scale and income](#phase-4-scale-and-income) | 37–48 | System design, AI ops, flagship product, income |
 
-| Milestone | CGPA | Status |
-|-----------|------|--------|
-| Current (Sem 1-3) | 5.49 | ❌ Below HCLTech cutoff (6.0) |
-| After Sem 4 | 6.17 | ✅ HCLTech eligible |
-| After Sem 5 | 6.62 | ✅ Competitive |
-| After Sem 6 | 7.00 | ✅ Target achieved |
+## Phase 1: Foundations
 
----
+Months 1–12. A strong base in code, Linux and the web.
 
-## 📚 SEMESTER 4 (February - May 2026)
+<img src="progress/phase1.svg" alt="Phase 1 progress" width="100%">
 
-**Total Credits:** 21  
-**Target Average:** 8.14  
-**HCLTech Requirement:** 6.0 CGPA + No Backlogs
+### Build in public
 
----
+Week 1, then always.
 
-### 1️⃣ UNIX OPERATING SYSTEM & SHELL PROGRAMMING
+- Push every project to GitHub, even small scripts.
+- Post learning notes on [Hashnode](https://hashnode.com/) or [Dev.to](https://dev.to/).
+- Share progress weekly on LinkedIn, Twitter or Reddit.
+- Join [r/webdev](https://www.reddit.com/r/webdev/), [Stack Overflow](https://stackoverflow.com/) and [Discord dev communities](https://discord.com/discover).
+- Start open source small: typo fixes, docs.
 
-**Credits:** 6 | **Priority:** 🔴 CRITICAL | **Target Score:** 8.0/10
+**Build:** Blog post "Week 1: My road to full-stack and AI".
 
-#### 📺 YouTube Resources (FREE - Recommended)
+### Linux
 
-**Primary:**
-- **Linux for Beginners** (Edureka)  
-  https://www.youtube.com/watch?v=IVquJh3DXUA  
-  Duration: 4 hours | Coverage: Linux basics, commands, file system
+Weeks 1–4. Full path in [Linux](../Skills/Linux.md).
 
-- **Linux Command Line Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=yzRkAZkHtaw  
-  Duration: 8 hours | Coverage: Shell scripting, pipes, grep, awk, sed
+- Install [Ubuntu](https://ubuntu.com), [Linux Mint](https://linuxmint.com) or [Fedora](https://getfedora.org).
+- Commands, file system, text tools.
+- Users, permissions, packages.
+- Shell scripting basics.
 
-**Quick Reference:**
-- **Bash Scripting Tutorial** (Traversy Media)  
-  https://www.youtube.com/watch?v=v-F3YLd6oMw  
-  Duration: 1 hour | Use: Exam prep
+**Learn:** [Linux for Absolute Beginners (Udemy)](https://www.udemy.com/course/linux-for-absolute-beginners/) · [Linux Tutorial for Beginners (freeCodeCamp)](https://www.youtube.com/watch?v=sWbUDq4S6Y8)
 
-#### 💻 Udemy Resources (Backup)
+**Build:** Shell script that automates backups.
 
-- **Linux Command Line Basics**  
-  Instructor: Jason Cannon  
-  https://www.udemy.com/course/linux-command-line-volume1/  
-  Duration: 5 hours | Price: ₹349 | When: Only if YouTube isn't enough
+### Python
 
-#### 📝 Practice Resources
+Weeks 5–12. Full path in [Python](../Skills/Python.md).
 
-- **OverTheWire Bandit** (Gamified Linux learning)  
-  https://overthewire.org/wargames/bandit/
+- Variables, types, loops, functions, OOP.
+- Built-in data structures: `list`, `dict`, `set`.
+- Files, modules, virtual environments.
+- CLI scripts on Linux.
 
-- **Linux Journey** (Interactive exercises)  
-  https://linuxjourney.com
+**Learn:** [100 Days of Code: Python Pro Bootcamp (Udemy)](https://www.udemy.com/course/100-days-of-code/) · [Python for Everybody (Coursera)](https://www.coursera.org/specializations/python) · [Python for Beginners (freeCodeCamp)](https://youtu.be/rfscVS0vtbw)
 
----
+**Build:** CLI task manager with file storage. Publish it and blog about it.
 
-### 2️⃣ PYTHON PROGRAMMING
+**Also build:** Snake game with Pygame.
 
-**Credits:** 6 | **Priority:** 🔴 CRITICAL | **Target Score:** 9.0/10
+### Web basics
 
-#### 💻 Udemy Resources (Primary)
+Months 4–6.
 
-- **100 Days of Code - Python Pro Bootcamp** ✅ ALREADY PURCHASED  
-  Instructor: Dr. Angela Yu  
-  https://www.udemy.com/course/100-days-of-code/  
-  Duration: 60 hours | Current Progress: Day 34/100  
-  Status: CONTINUE THIS - Perfect match for syllabus
+- HTML, CSS, JavaScript.
+- DOM, responsive design, Flexbox, Grid.
+- Git and GitHub.
 
-#### 📺 YouTube Resources (Supplement)
+**Learn:** [The Complete Web Development Bootcamp (Udemy)](https://www.udemy.com/course/the-complete-web-development-bootcamp/) · [Responsive Web Design (freeCodeCamp)](https://www.freecodecamp.org/learn/) · [JavaScript Full Course (freeCodeCamp)](https://youtu.be/PkZNo7MFNFg)
 
-**Quick Revision:**
-- **Python Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=rfscVS0vtbw  
-  Duration: 4.5 hours | Use: Pre-exam revision
+**Build:** Portfolio website. Deploy it and write a showcase post.
 
-**OOP Deep Dive:**
-- **Python OOP Tutorial** (Corey Schafer)  
-  https://www.youtube.com/watch?v=ZDa-Z5JzLYM  
-  Duration: 1 hour | Coverage: Classes, objects, inheritance
+### React and Next.js
 
-#### 📝 Practice Resources
+Months 7–9.
 
-- **HackerRank Python**  
-  https://www.hackerrank.com/domains/python  
-  Target: Solve 50 Easy problems
+- React: components, props, state, hooks.
+- Next.js: pages, routing, API routes.
+- State: Context API or Redux basics.
 
-- **Project Ideas:**
-  - CLI Calculator (functions, error handling)
-  - File Manager (file I/O, OS module)
-  - Web Scraper (BeautifulSoup)
+**Learn:** [React Full Course (freeCodeCamp)](https://www.youtube.com/watch?v=bMknfKXIFA8) · [React JS Crash Course (Traversy Media)](https://youtu.be/w7ejDZ8SWv8) · [React: The Complete Guide (Udemy)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) · [Next.js & React: The Complete Guide (Udemy)](https://www.udemy.com/course/nextjs-react-the-complete-guide/) · [Fireship (YouTube)](https://www.youtube.com/c/Fireship)
 
----
+**Build:** Blog with Next.js and Markdown. Write "How I built my blog with Next.js".
 
-### 3️⃣ GETTING STARTED WITH JAVA PROGRAMMING
+### Backend and databases
 
-**Credits:** 3 | **Priority:** 🟡 HIGH | **Target Score:** 7.5/10
+Months 10–12.
 
-#### 💻 Udemy Resources (Recommended)
+- Node.js and Express.
+- REST API design.
+- PostgreSQL with Prisma ORM.
+- Docker basics. Deploy to Railway or Render.
 
-- **Java Programming Masterclass for Developers**  
-  Instructor: Tim Buchalka  
-  https://www.udemy.com/course/java-the-complete-java-developer-course/  
-  Duration: 80 hours (Focus on first 15-20 hours only)  
-  Price: ₹599 | When to Buy: February 2026 sale  
-  Sections: 1-8 (Basics, OOP, Arrays)
+**Learn:** [Node.js, Express, MongoDB Bootcamp (Udemy)](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) · [Docker Crash Course (Fireship)](https://youtu.be/3c-iBn73dDE) · [PostgreSQL Full Course (freeCodeCamp)](https://youtu.be/qw--VYLpxG4) · [TechWorld with Nana (YouTube)](https://www.youtube.com/c/TechWorldwithNana)
 
-#### 📺 YouTube Resources (Free Alternative)
+**Build:** Real-time chat app with WebSocket, Node.js and PostgreSQL. Add a demo video and a README.
 
-**Best for Beginners:**
-- **Java Full Course** (Bro Code)  
-  https://www.youtube.com/watch?v=xk4_1vDrzzo  
-  Duration: 12 hours | Coverage: Perfect beginner match
+**Also build:** REST API for an online store · Blog platform with login.
 
-**Quick OOP:**
-- **Java OOP Concepts** (Telusko)  
-  https://www.youtube.com/watch?v=BSVKUk58K6U  
-  Duration: 30 mins | Use: Quick revision
+### Done when
 
-#### 📝 Practice Resources
+- [ ] 5–7 beginner projects on GitHub
+- [ ] Blog and social profiles active
+- [ ] Comfortable with Python, Linux and web basics
+- [ ] First full-stack app deployed
 
-- **HackerRank Java**  
-  https://www.hackerrank.com/domains/java  
-  Target: 30 programs (basics + OOP)
+## Phase 2: Production and AI
 
----
+Months 13–24. Scalable, production-ready apps with AI features.
 
-### 4️⃣ JAVA DATABASE PROGRAMMING
+<img src="progress/phase2.svg" alt="Phase 2 progress" width="100%">
 
-**Credits:** 3 | **Priority:** 🟡 HIGH | **Target Score:** 7.5/10
+### Advanced frontend
 
-#### 💻 Udemy Resources
+Months 13–15.
 
-- **The Complete SQL Bootcamp** ✅ ALREADY IN YOUR LIST  
-  Instructor: Jose Portilla  
-  https://www.udemy.com/course/the-complete-sql-bootcamp/  
-  Duration: 9 hours | Price: ₹399  
-  Coverage: SQL basics, joins, database design
+- Next.js server components and data fetching.
+- Tailwind CSS.
+- Auth: NextAuth.js, JWT, OAuth2.
 
-#### 📺 YouTube Resources (JDBC - FREE)
+**Learn:** [Next.js & React: The Complete Guide (Udemy)](https://www.udemy.com/course/nextjs-react-the-complete-guide/) · [Tailwind CSS Crash Course (Traversy Media)](https://youtu.be/dFgzHOX84xQ)
 
-**Primary:**
-- **JDBC Tutorial** (Telusko)  
-  https://www.youtube.com/watch?v=7v2OnUti2eM  
-  Duration: 2 hours | Coverage: Java-MySQL connection
+**Build:** Online store UI with Next.js and Tailwind.
 
-**Quick Overview:**
-- **Java Database Connection** (Programming with Mosh)  
-  https://www.youtube.com/watch?v=qPRj5BQi5HE  
-  Duration: 30 mins | Use: Quick concepts
+**Also build:** AI-powered blog platform.
 
-#### 📝 Practice Resources
+### Advanced backend
 
-- **SQLZoo** (SQL Practice)  
-  https://sqlzoo.net/  
-  Target: 20 queries
+Months 16–18.
 
-- **Project:** Student Management System (Java + MySQL CRUD)
+- NestJS or advanced Express.
+- GraphQL and resolvers.
+- Role-based access control, API security.
 
----
+**Learn:** [NestJS Zero to Hero (Udemy)](https://www.udemy.com/course/nestjs-zero-to-hero/) · [GraphQL Crash Course (Traversy Media)](https://youtu.be/BcLNfwF04Kw)
 
-### 5️⃣ DEVELOPING WEB APPLICATION
+**Build:** Online store backend with NestJS and PostgreSQL.
 
-**Credits:** 3 | **Priority:** 🟡 HIGH | **Target Score:** 8.0/10
+**Also build:** MERN social media app.
 
-#### 💻 Udemy Resources
+### Cloud and testing
 
-- **The Complete Web Development Bootcamp** ✅ ALREADY IN YOUR LIST  
-  Instructor: Dr. Angela Yu  
-  https://www.udemy.com/course/the-complete-web-development-bootcamp/  
-  Duration: 65 hours (Focus on first 15 hours)  
-  Price: ₹499 | When to Buy: March 2026 sale  
-  Sections: HTML, CSS, JavaScript basics
+Months 19–21.
 
-#### 📺 YouTube Resources (Free Alternative)
+- AWS or GCP basics.
+- Kubernetes basics.
+- Tests with Jest and Playwright.
+- CI/CD with GitHub Actions.
 
-**HTML & CSS:**
-- **HTML & CSS Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=mU6anWqZJcc  
-  Duration: 2 hours
+**Learn:** [Introduction to AWS (Udemy)](https://www.udemy.com/course/awsintro/) · [GCP Fundamentals: Core Infrastructure (Udemy)](https://www.udemy.com/course/google-cloud-fundamental-knowledge/) · [Google Cloud Fundamentals (Coursera)](https://www.coursera.org/learn/gcp-fundamentals) · [Docker & Kubernetes: The Practical Guide (Udemy)](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/) · [Kubernetes (TechWorld with Nana)](https://youtu.be/X48VuDVv0do) · [Testing JavaScript with Jest (Udemy)](https://www.udemy.com/course/testing-javascript-with-jest/)
 
-**JavaScript:**
-- **JavaScript Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=PkZNo7MFNFg  
-  Duration: 3.5 hours
+**Build:** Deploy the online store to the cloud.
 
-**Project-Based:**
-- **Build 5 Web Projects** (Traversy Media)  
-  https://www.youtube.com/watch?v=nu_pCVPKzTk  
-  Duration: 6 hours
+### AI APIs
 
-#### 📝 Practice Resources
+Months 22–24.
 
-- **Projects to Build:**
-  - Personal Portfolio (HTML, CSS, JS)
-  - Calculator Web App
-  - Deploy on GitHub Pages (free)
+- OpenAI API.
+- LangChain for LLM apps.
+- Vector databases: pgvector, Pinecone.
 
----
+**Learn:** [OpenAI API & ChatGPT API for Developers (Udemy)](https://www.udemy.com/course/introduction-to-openai-api-chatgpt-api-chatgpt-plugins/) · [GenAI Apps with LangChain & Pinecone (Udemy)](https://www.udemy.com/course/master-langchain-pinecone-openai-build-llm-applications/) · [Intro to OpenAI API (freeCodeCamp)](https://youtu.be/2FeymQoKvrk) · [LangChain Crash Course](https://youtu.be/MlK6SIjcjE8)
 
-## 💰 SEMESTER 4 INVESTMENT
+**Build:** AI code reviewer bot with LangChain and the GitHub API.
 
-### Must Buy
+**Also build:** AI command-line assistant · AI knowledge search app.
 
-| Course | Price | Priority | When |
-|--------|-------|----------|------|
-| Java Masterclass | ₹599 | 🔴 HIGH | Feb 2026 |
-| SQL Bootcamp | ₹399 | 🔴 HIGH | Feb 2026 |
-| Web Dev Bootcamp | ₹499 | 🟡 MEDIUM | Mar 2026 |
+### Done when
 
-### Optional (Use YouTube Instead)
+- [ ] Production-ready frontend and backend
+- [ ] Apps running in the cloud
+- [ ] First AI app in the portfolio
+- [ ] Real code merged in 2+ open-source projects
 
-| Course | Price | Alternative |
-|--------|-------|-------------|
-| Linux CLI | ₹349 | freeCodeCamp Linux course (FREE) |
+## Phase 3: Deep tech
 
-**Semester 4 Total:** ₹1,497 (Required) or ₹1,846 (With Linux)
+Months 25–36. Custom AI models, distributed systems, strong problem solving.
 
----
+<img src="progress/phase3.svg" alt="Phase 3 progress" width="100%">
 
-## 📚 SEMESTER 5 (June - October 2026)
+### Machine learning
 
-**Total Credits:** 22  
-**Target Average:** 8.30  
-**Focus:** Cloud, AI, DevOps (High-demand skills)
+Months 25–27.
 
----
+- Data cleaning, preprocessing, visualization.
+- Supervised and unsupervised learning.
+- Training, evaluation, tuning.
 
-### 1️⃣ INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+**Learn:** [Machine Learning, Andrew Ng (Coursera)](https://www.coursera.org/learn/machine-learning) · [Data Science Crash Course (freeCodeCamp)](https://youtu.be/ua-CiDNNj30) · [Python for Data Science: NumPy, Pandas, Scikit-Learn (Udemy)](https://www.udemy.com/course/python-for-data-science-numpy-pandas-scikit-learn/), 330+ exercises
 
-**Credits:** 6 | **Priority:** 🔴 CRITICAL | **Target Score:** 8.5/10
+**Build:** Recommendation system for movies or products.
 
-#### 💻 Udemy Resources (Primary)
+**Also build:** Stock price prediction model.
 
-- **Machine Learning A-Z: Hands-On Python & R** ✅ ALREADY IN YOUR LIST  
-  Instructor: Kirill Eremenko, Hadelin de Ponteves  
-  https://www.udemy.com/course/machinelearning/  
-  Duration: 44 hours | Price: ₹499  
-  When to Buy: May 2026 (after Sem 4 exams)
+### Deep learning and LLMs
 
-#### 📺 YouTube Resources (Supplement)
+Months 28–30.
 
-**AI Fundamentals:**
-- **AI Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=JMUxmLyrhSk  
-  Duration: 4 hours
+- Neural network basics.
+- Transfer learning and fine-tuning.
+- Custom LLMs with Hugging Face Transformers.
 
-**Best ML Theory:**
-- **Machine Learning by Andrew Ng** (Stanford)  
-  https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN  
-  Duration: ~15 hours | Quality: 🏆 Gold standard
+**Learn:** [Deep Learning Specialization, Andrew Ng (Coursera)](https://www.coursera.org/specializations/deep-learning) · [Hugging Face Course](https://huggingface.co/course/) · [PyTorch: Deep Learning and AI (Udemy)](https://www.udemy.com/course/pytorch-deep-learning/), updated August 2025 · [Transformer Models and LLM Fine-Tuning (Udemy)](https://www.udemy.com/course/fine-tuning-llm-with-hugging-face-transformers/) · [Sentdex (YouTube)](https://www.youtube.com/user/sentdex)
 
-#### 📝 Practice Resources
+**Build:** Chatbot with memory on a fine-tuned LLM.
 
-- **Kaggle Learn** (Free ML courses)  
-  https://www.kaggle.com/learn
+### Distributed systems
 
-- **Google Colab** (Free GPU for ML)  
-  https://colab.research.google.com
+Months 31–33.
 
----
+- Event-driven architecture.
+- Kafka streaming, RabbitMQ.
+- Sharding and replication.
 
-### 2️⃣ GETTING CLOUD READY
+**Learn:** [Kafka Crash Course (Conduktor)](https://youtu.be/98Q3f8vIdl0) · [Distributed Systems (MIT OCW)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-824-distributed-computer-systems-engineering-spring-2006/) · [Learn Apache Kafka for Beginners v3 (Udemy)](https://www.udemy.com/course/apache-kafka/) · [Kafka for Spring Boot Microservices (Udemy)](https://www.udemy.com/course/apache-kafka-for-spring-boot-microservices/) · [Event-Driven Architecture (Udemy)](https://www.udemy.com/course/event-driven-architecture-the-complete-guide/)
 
-**Credits:** 5 | **Priority:** 🔴 CRITICAL | **Target Score:** 9.0/10
+**Build:** Distributed video processing system.
 
-#### 💻 Udemy Resources (Primary)
+### Advanced DSA
 
-- **AWS Certified Cloud Practitioner - Full Course** ✅ IN YOUR LIST  
-  Instructor: Stephane Maarek  
-  https://www.udemy.com/course/aws-certified-cloud-practitioner-new/  
-  Duration: 14 hours | Price: ₹499  
-  When to Buy: June 2026 sale  
-  **Bonus:** Take AWS certification exam (₹7,000) after course
+Months 34–36. Full path in [DSA](../Skills/DSA.md).
 
-#### 📺 YouTube Resources (Free Alternative)
+- Arrays, strings, trees, graphs, dynamic programming.
+- Data structures from scratch in Python or C.
+- 150+ medium and hard LeetCode problems.
 
-**Primary:**
-- **AWS Cloud Practitioner Full Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=3hLmDS179YE  
-  Duration: 14 hours | Quality: Excellent
+**Learn:** [Master the Coding Interview: DSA (Udemy)](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) · [CP Handbook](https://cses.fi/book/book.pdf) · [Striver's DSA Sheet](https://takeuforward.org/) · [Data Structures and Algorithms, UC San Diego (Coursera)](https://www.coursera.org/specializations/data-structures-algorithms)
 
-**Quick Overview:**
-- **AWS Basics** (Edureka)  
-  https://www.youtube.com/watch?v=k1RI5locZE4  
-  Duration: 4 hours
+**Build:** Pathfinding visualizer or search indexing engine.
 
-#### 📝 Practice Resources
+### Done when
 
-- **AWS Free Tier Account**  
-  https://aws.amazon.com/free/  
-  Practice: Deploy apps, use S3, EC2
+- [ ] AI models and fine-tuned LLMs built
+- [ ] 3 documented AI/ML projects on GitHub
+- [ ] A distributed system designed and deployed
+- [ ] 200+ DSA problems, mock interviews done, resume ready
 
-- **AWS Skill Builder** (Free courses)  
-  https://skillbuilder.aws
+## Phase 4: Scale and income
 
----
+Months 37–48. Work at tech-lead level. Launch a flagship. Earn from your skills.
 
-### 3️⃣ DEVOPS PRINCIPLES, PRACTICES & TOOLS WITH CLOUD
+<img src="progress/phase4.svg" alt="Phase 4 progress" width="100%">
 
-**Credits:** 5 | **Priority:** 🔴 CRITICAL | **Target Score:** 8.5/10
+### System design
 
-#### 💻 Udemy Resources (Primary)
+Months 37–39.
 
-- **Docker & Kubernetes: The Complete Guide** ✅ IN YOUR LIST  
-  Instructor: Stephen Grider  
-  https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/  
-  Duration: 22 hours | Price: ₹499  
-  When to Buy: July 2026 sale
+- Design for millions of users.
+- Load balancing, caching, API gateways, microservices.
+- Scalability, availability, fault tolerance.
 
-#### 📺 YouTube Resources (Supplement)
+**Learn:** [System Design Interview (Udemy)](https://www.udemy.com/course/system-design-interview/) · [System Design Primer (GitHub)](https://github.com/donnemartin/system-design-primer) · [System Design Primer talk (GOTO)](https://youtu.be/UzLMhqg3_Wc) · [System Design playlist (Tech Dummies)](https://youtube.com/playlist?list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a) · [Cloud Computing Specialization, Illinois (Coursera)](https://www.coursera.org/specializations/cloud-computing)
 
-**DevOps Overview:**
-- **DevOps Full Course** (Simplilearn)  
-  https://www.youtube.com/watch?v=hQcFE0RD0cQ  
-  Duration: 5 hours
+**Build:** Scalable social media platform.
 
-**Docker Deep Dive:**
-- **Docker Tutorial** (TechWorld with Nana)  
-  https://www.youtube.com/watch?v=3c-iBn73dDE  
-  Duration: 3 hours | Quality: Best explanation
+**Also build:** Microservices online store · ML models on AWS with Docker and Kubernetes.
 
-**Kubernetes:**
-- **Kubernetes Course** (freeCodeCamp)  
-  https://www.youtube.com/watch?v=d6WC5n9G_sM  
-  Duration: 3.5 hours
+### AI ops
 
-#### 📝 Practice Resources
+Months 40–42.
 
-- **Play with Docker** (Free online labs)  
-  https://labs.play-with-docker.com
+- Model monitoring and retraining.
+- MLflow, DVC.
+- Terraform, Kubernetes deployment.
+- Secure model pipelines.
 
-- **Kubernetes Playground**  
-  https://www.katacoda.com/courses/kubernetes
+**Learn:** [MLOps Fundamentals (Udemy)](https://www.udemy.com/course/mlops-fundamentals/) · [AI Deployment & Monitoring (YouTube)](https://youtu.be/_VUm2J1EecY) · [MLflow Tutorial (freeCodeCamp)](https://youtu.be/7PqA0bPnrK0)
 
----
+**Build:** AI chatbot with a monitoring dashboard.
 
-### 4️⃣ FUNDAMENTALS OF ECOMMERCE
+### Flagship product
 
-**Credits:** 4 | **Priority:** 🟢 LOW | **Target Score:** 7.0/10
+Months 43–45.
 
-#### 📺 YouTube Resources (FREE - Sufficient)
+- One large, production-ready product. SaaS or open source.
+- Full docs, CI/CD, tests, marketing site.
+- Ideas: AI developer agent, AI productivity platform, developer automation tool.
 
-- **Google Digital Garage** (Ecommerce Fundamentals)  
-  https://learndigital.withgoogle.com/digitalgarage  
-  Duration: 3 hours
+**Build:** Launch the MVP. Collect feedback. Iterate to market fit.
 
-- **Ecommerce Business Model** (Various YouTube channels)  
-  Search: "Ecommerce fundamentals tutorial"  
-  Coverage: Business models, payment gateways, marketing
+### Income
 
-#### 💡 Note
+Months 46–48. All ideas in [Income](../Money/Income.md).
 
-This is a theory-heavy, low-credit subject. YouTube resources are sufficient. No Udemy purchase needed.
+- Now: freelance and consulting ($100–200/hour), technical writing, code reviews and mentoring on Codementor, bug bounties.
+- Later: digital products, online courses, micro SaaS, open-source sponsors.
 
----
+**Build:** Personal brand site with live project demos, plus one paid product.
 
-### 5️⃣ PROFESSIONAL ETHICS
+### Also learn
 
-**Credits:** 2 | **Priority:** 🟢 LOW | **Target Score:** 7.5/10
+- **Leadership:** Agile and Scrum. [Agile Project Management (freeCodeCamp)](https://youtu.be/Z9QbYZh1YXY). Lead a small open-source team.
+- **Security:** Pen-testing basics. [The Complete Cyber Security Course (Udemy)](https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/). Build a secure API gateway.
+- **Startups:** [YC Startup School](https://www.startupschool.org/). Launch an open-source community tool.
+- **Business:** Product management, marketing and SEO, pricing and taxes.
+- **Presence:** Weekly posts, talks (local, then regional, then international), podcasts, YouTube, a newsletter, mentoring, workshops.
 
-#### 📺 YouTube Resources (FREE - Sufficient)
+### Done when
 
-- **Professional Ethics** (NPTEL)  
-  Search: "Professional Ethics NPTEL" on YouTube  
-  Duration: 2-3 hours
+- [ ] Systems designed and deployed at scale
+- [ ] Flagship SaaS or open-source product launched
+- [ ] Several income streams from tech skills
+- [ ] Known in the developer community
 
-#### 💡 Note
+## Choose a focus
 
-Easy theory subject. No Udemy purchase needed.
+You can't master everything equally. Pick one main path by month 18.
 
----
+| Path | Main | Also | Career |
+|:--|:--|:--|:--|
+| Full-stack | Advanced web, system design, DevOps | AI integration | Senior engineer, tech lead, engineering manager |
+| AI/ML | ML, deep learning, MLOps | Full-stack to ship AI products | ML engineer, senior AI engineer, AI research or CTO |
+| Platform | Infrastructure, distributed systems, cloud | Full-stack, AI ops | Platform engineer, staff engineer, principal engineer |
 
-## 💰 SEMESTER 5 INVESTMENT
+### Months 19–30 by path
 
-### Must Buy
+**Full-stack**
+- 19–24: Microservices, service mesh, API gateways, Kubernetes and Helm, logging, metrics, tracing, OAuth2/OIDC, security scans. Build a multi-tenant SaaS with real-time features and monitoring.
+- 25–30: Code splitting, lazy loading, CDN, caching, database tuning, auto-scaling, disaster recovery, APM and SLAs. Build an app for 10k+ concurrent users: under 100 ms, 99.9% uptime, global CDN.
 
-| Course | Price | Priority | When |
-|--------|-------|----------|------|
-| AWS Cloud Practitioner | ₹499 | 🔴 CRITICAL | Jun 2026 |
-| Machine Learning A-Z | ₹499 | 🔴 CRITICAL | May 2026 |
-| Docker & Kubernetes | ₹499 | 🔴 CRITICAL | Jul 2026 |
+**AI/ML**
+- 19–24: Probability, statistics, linear algebra, ensembles, CNNs, RNNs, Transformers, ETL, feature engineering. Read [Hands-On Machine Learning](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/), [Practical Deep Learning (fast.ai)](https://course.fast.ai/), [Pattern Recognition and Machine Learning (Bishop)](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/). Build an end-to-end ML pipeline with A/B tests and a production deploy.
+- 25–30: Model versioning, continuous training, fine-tuning, RAG, prompt engineering, model serving, bias and robustness checks. Build a production AI app with a fine-tuned LLM, RAG and a real-time inference API.
 
-### Additional Investment
+**Platform**
+- 19–24: Terraform, CloudFormation, Istio, Envoy, IAM, secrets, compliance, cost tracking. Build a multi-cloud platform with disaster recovery and auto-scaling.
+- 25–30: Raft, Byzantine fault tolerance, Kafka, event sourcing, CQRS, CAP theorem, eventual consistency. Build a multi-region streaming data platform that heals itself.
 
-| Item | Price | Priority |
-|------|-------|----------|
-| AWS Certification Exam | ₹7,000 | 🟡 HIGH (Optional but recommended) |
+### Flagship ideas
 
-**Semester 5 Total:** ₹1,497 (courses only) or ₹8,497 (with AWS cert)
+| Path | Ideas |
+|:--|:--|
+| Full-stack | Developer platform like GitHub · Collaboration suite like Notion or Figma · Store platform like Shopify |
+| AI/ML | AI coding assistant · AutoML platform like H2O.ai · AI agent for law, health or finance |
+| Platform | Multi-cloud orchestration like Terraform Cloud · Developer platform like Vercel or Netlify · Monitoring suite like Datadog |
 
----
+A flagship has 10,000+ lines, full docs, 90%+ test coverage, CI/CD, monitoring and alerts, a security audit, benchmarks and real user feedback.
 
-## 📚 SEMESTER 6 (November 2026 - April 2027)
+### Career paths
 
-**Total Credits:** 21  
-**Target Average:** 8.62  
-**Focus:** Major Project + Placement Prep
+- **Technical:** staff, principal, distinguished engineer.
+- **Management:** tech lead, engineering manager, VP of engineering.
+- **Founder:** technical co-founder, CTO, CEO.
+- **Teaching:** consultant, course creator, technical advisor.
+- **Research:** applied research, technical writing, thought leader.
 
----
+## Go deeper
 
-### 1️⃣ MAJOR PROJECT
+Books, courses and projects beyond the main plan.
 
-**Credits:** 9 | **Priority:** 🔴 CRITICAL | **Target Score:** 9.0/10
+**Linux.** Shell automation, system admin, processes, networking, packages, security.
+- Read: [Linux Command Line and Shell Scripting Bible](https://www.wiley.com/en-us/Linux+Command+Line+and+Shell+Scripting+Bible%2C+4th+Edition-p-9781119700913) · [Linux for Developers (Udemy)](https://www.udemy.com/course/linux-for-developers/)
+- Build: system monitor, backups with rotation, log analyzer.
 
-#### 💡 Recommended Project Stack
+**Programming.** Python OOP, functional and async. JavaScript ES6+, closures, prototypes, async.
+- Read: [Fluent Python](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/) · [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts/)
+- Build: CLI task manager with SQLite, web scraper with rate limits, 2D canvas game engine.
 
-**Full-Stack Cloud SaaS Application**
+**Computer science.** Data structures, algorithms, Big O, scalability trade-offs.
+- Read: [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) · [Algorithms Specialization, Stanford (Coursera)](https://www.coursera.org/specializations/algorithms)
+- Build: algorithm visualizer, B-tree database, A* and Dijkstra simulator.
 
-- **Frontend:** React.js
-- **Backend:** Python FastAPI OR Node.js
-- **Database:** PostgreSQL
-- **Deployment:** AWS (EC2 + RDS + S3)
-- **CI/CD:** Docker + GitHub Actions
+**Frontend.** React performance, TypeScript generics, SSR and SSG, Redux Toolkit, Zustand, React Query, Playwright.
+- Read: [Learning React](https://www.oreilly.com/library/view/learning-react-2nd/9781492051718/) · [Epic React](https://epicreact.dev/)
+- Build: component library on npm with Storybook, real-time collaboration app, large-data dashboard.
 
-#### 💻 Udemy Resources (For Project)
+**Backend.** REST, GraphQL, OpenAPI, indexing, query tuning, OAuth2, RBAC, contract tests.
+- Read: [Node.js Design Patterns](https://www.packtpub.com/product/nodejs-design-patterns-third-edition/9781839214110) · [The Complete Node.js Developer (Udemy)](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)
+- Build: event-driven microservices store, API gateway with rate limits, real-time analytics.
 
-- **React - The Complete Guide** ✅ IN YOUR LIST  
-  Instructor: Maximilian Schwarzmüller  
-  https://www.udemy.com/course/react-the-complete-guide-incl-redux/  
-  Duration: 48 hours | Price: ₹499  
-  When to Buy: September 2026
+**Networks and systems.** TCP/UDP sockets, HTTP internals, threads, async I/O, memory, encryption.
+- Read: [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) · [System Programming, Illinois](https://github.com/angrave/SystemProgramming/wiki)
+- Build: multi-threaded HTTP server, encrypted P2P chat, load balancer with health checks.
 
-- **Node.js, Express, MongoDB Bootcamp** ✅ IN YOUR LIST  
-  Instructor: Jonas Schmedtmann  
-  https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/  
-  Duration: 42 hours | Price: ₹499  
-  When to Buy: September 2026
+**Databases.** B-trees, LSM trees, WAL, MVCC, query plans, replication, sharding, NoSQL.
+- Read: [Designing Data-Intensive Applications](https://dataintensive.net/) · [Database Systems (CMU)](https://15445.courses.cs.cmu.edu/fall2022/)
+- Build: SQL query engine, distributed key-value store, migration tool.
 
-#### 📺 YouTube Resources (Project Tutorials)
+**System design.** Design Twitter, WhatsApp, Netflix. Trade-offs, capacity planning, failure modes.
+- Read: [System Design Interview Vol. 1 & 2](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) · [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+- Practice: one design challenge a week, with peer review.
 
-**Full-Stack Projects:**
-- Search: "MERN stack full project" OR "FastAPI React project"  
-  Duration: 8-12 hours per tutorial  
-  Use: Follow along, then customize for your project
+**Algorithms.** Segment trees, tries, network flow, matching, linear programming.
+- Target: 300+ LeetCode problems, 150+ medium, 100+ hard.
 
-**Deployment:**
-- **Deploy to AWS** (freeCodeCamp)  
-  https://www.youtube.com/results?search_query=deploy+react+app+aws
+## Targets
 
-#### 📝 Project Requirements
+**By month 48**
+- 20+ production projects
+- Full-stack, AI/ML, distributed systems and system design skills
+- Strong Linux and DSA for interviews
+- Several income streams
+- A known voice in your niche
 
-- User Authentication (JWT)
-- CRUD Operations
-- File Upload (AWS S3)
-- Real-time features (WebSockets)
-- Admin Dashboard
-- CI/CD Pipeline
-- Complete Documentation
+**By month 18**
+- [ ] 20+ blog posts
+- [ ] 15+ projects with good READMEs
+- [ ] 5+ open-source contributions
+- [ ] Active in 3+ developer communities
+- [ ] 100+ relevant LinkedIn connections
+- [ ] AWS Cloud Practitioner or similar
 
----
+**Year 6 and beyond**
+- [ ] 30+ production projects, 2,000+ commits, 1,000+ GitHub stars
+- [ ] 100+ technical posts, 5,000+ Stack Overflow reputation
+- [ ] 3+ cloud or specialty certifications
+- [ ] 90%+ test coverage, sub-second responses, 10k+ concurrent users, zero critical vulnerabilities
+- [ ] Salary 3x the starting point, $150k+ total income
+- [ ] Conference speaker, 500+ connections, 10+ developers mentored
+- [ ] Leading technical work, a patent or major open-source contribution
+- [ ] 3+ income streams, $2,000+/month passive, 5+ consulting clients, $2,500+ per talk
 
-### 2️⃣ CLOUD (AWS) BASED APPLICATION DEVELOPMENT WITH DEVOPS
+## Rules
 
-**Credits:** 4 | **Priority:** 🔴 CRITICAL | **Target Score:** 9.0/10
+- Add 25% buffer to every estimate.
+- Review every 6 months. Reset goals every 12 months. Check skill gaps before each phase.
+- Keep spare weeks for emergencies and revision.
+- Take breaks between hard blocks. Check balance every quarter. Watch for burnout.
+- Keep peers, mentors and an accountability partner close.
+- Review the market every quarter. Update the stack as tools change.
+- Change course if your interests or the market change.
 
-#### 💻 Udemy Resources
-
-- **Ultimate AWS Certified Solutions Architect Associate** ✅ IN YOUR LIST  
-  Instructor: Stephane Maarek  
-  https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/  
-  Duration: 27 hours | Price: ₹599  
-  When to Buy: September 2026  
-  Use: Deploy your Major Project with production-grade AWS
-
-#### 📺 YouTube Resources
-
-- **AWS Projects** (Various channels)  
-  Search: "AWS full stack deployment tutorial"  
-  Coverage: EC2, RDS, S3, Load Balancers, Auto Scaling
-
----
-
-### 3️⃣ APPLY AGILE PRINCIPLES AND DEVELOP A PROJECT
-
-**Credits:** 4 | **Priority:** 🟡 MEDIUM | **Target Score:** 8.0/10
-
-#### 📺 YouTube Resources (FREE - Sufficient)
-
-- **Agile Full Course** (Simplilearn)  
-  Search: "Agile Scrum full course"  
-  Duration: 4 hours  
-  Coverage: Scrum, Sprints, User Stories, Kanban
-
-- **Agile Project Management** (freeCodeCamp)  
-  https://www.youtube.com/results?search_query=agile+project+management
-
-#### 💡 Note
-
-Theory subject. Apply concepts to your Major Project. No Udemy purchase needed.
-
----
-
-### 4️⃣ PLANNING FOR A PROJECT
-
-**Credits:** 4 | **Priority:** 🟡 MEDIUM | **Target Score:** 8.0/10
-
-#### 📺 YouTube Resources (FREE - Sufficient)
-
-- **Project Management Basics**  
-  Search: "Project management tutorial"  
-  Duration: 3 hours  
-  Coverage: WBS, Gantt charts, Risk management
-
-- **Project Planning** (freeCodeCamp)  
-  https://www.youtube.com/results?search_query=project+planning+tutorial
-
-#### 💡 Note
-
-Theory subject. Document your Major Project planning. No Udemy purchase needed.
-
----
-
-## 💰 SEMESTER 6 INVESTMENT
-
-### Must Buy (For Major Project)
-
-| Course | Price | Priority | When |
-|--------|-------|----------|------|
-| React Complete Guide | ₹499 | 🔴 CRITICAL | Sep 2026 |
-| Node.js Bootcamp | ₹499 | 🔴 CRITICAL | Sep 2026 |
-| AWS Solutions Architect | ₹599 | 🔴 CRITICAL | Sep 2026 |
-
-**Semester 6 Total:** ₹1,597
-
----
-
-## 💰 COMPLETE INVESTMENT SUMMARY
-
-### By Semester
-
-| Semester | Required Courses | Optional | Total |
-|----------|-----------------|----------|-------|
-| **Sem 4** | ₹1,497 | ₹349 (Linux) | ₹1,497-1,846 |
-| **Sem 5** | ₹1,497 | ₹7,000 (AWS Exam) | ₹1,497-8,497 |
-| **Sem 6** | ₹1,597 | - | ₹1,597 |
-| **TOTAL** | **₹4,591** | **₹7,349** | **₹4,591-11,940** |
-
-### Smart Buying Strategy
-
-**Recommended Total Investment:** ₹11,940
-- ₹4,591 (Udemy courses)
-- ₹7,000 (AWS Certification)
-- ₹349 (Optional Linux course)
-
-**vs ₹30,000 Amity AI Certificate** = **60% CHEAPER + Better ROI**
-
----
-
-## 🆓 100% FREE PATH (YouTube Only)
-
-### If Budget = ₹0
-
-**Semester 4:**
-- Unix: freeCodeCamp Linux
-- Python: freeCodeCamp Python
-- Java: Bro Code Java
-- SQL: freeCodeCamp SQL
-- Web: freeCodeCamp Web Dev
-
-**Semester 5:**
-- AI/ML: Andrew Ng Stanford (YouTube)
-- Cloud: freeCodeCamp AWS
-- DevOps: TechWorld with Nana
-
-**Semester 6:**
-- Projects: freeCodeCamp tutorials
-- AWS: AWS YouTube channel
-
-**Total Cost:** ₹0  
-**Quality:** 8/10 (vs Udemy's 9/10)
-
----
-
-## 🎯 PRIORITY MATRIX
-
-### 🔴 CRITICAL (Must Do)
-
-- Clear backlog immediately
-- Achieve 8.0+ avg in Sem 4
-- Complete 100 Days Python
-- Get AWS Cloud Practitioner certified
-- Build 10 portfolio projects
-- Major Project (Sem 6) = 9.0 score
-
-### 🟡 HIGH (Should Do)
-
-- Buy core Udemy courses (₹4,591)
-- Solve 100+ LeetCode Easy problems
-- Build strong GitHub profile
-- Learn Docker/Kubernetes basics
-- Apply for 200+ off-campus jobs
-
-### 🟢 MEDIUM (Nice to Have)
-
-- AWS Solutions Architect cert
-- Advanced React/Node.js
-- System Design basics
-- Freelance projects (Upwork)
-
-### ⚪ LOW (Optional)
-
-- Extra certifications
-- Advanced ML topics
-- Contribute to open source
-
----
-
-## 📊 SUCCESS METRICS
-
-### By May 2027 (Graduation)
-
-✅ **Academic:**
-- Final CGPA: 7.0+
-- No backlogs
-- Major Project: 9.0 score
-
-✅ **Skills:**
-- AWS Cloud Practitioner certified
-- 10+ projects deployed (GitHub)
-- 100+ LeetCode problems solved
-
-✅ **Career:**
-- 5-10 interview calls received
-- 2-3 job offers (₹6-8 LPA range)
-- OR NIMCET Top 1000 rank (backup)
-
----
-
-## 🚨 CRITICAL REMINDERS
-
-### HCLTech Reality
-
-- **Minimum CGPA:** 6.0 (You're at 5.49 - MUST FIX)
-- **Backlog Policy:** Zero tolerance
-- **Placement:** NOT guaranteed - just "opportunity to apply"
-- **Selection:** Based on company requirements (you compete)
-
-### Your Strategy
-
-1. **Don't rely on HCLTech** - build skills for ALL companies
-2. **Focus on CGPA** - 7.0 opens all doors
-3. **Build portfolio** - Projects > Certificates
-4. **Prepare backup** - NIMCET option if no job
-5. **Start early** - Age 27 = Time-critical
-
----
-
-## 🔗 QUICK LINKS REFERENCE
-
-### Essential Platforms
-
-- **Udemy Sales:** Check every 2 weeks for 85-90% off
-- **freeCodeCamp:** https://www.freecodecamp.org
-- **YouTube Learning:** Search "[topic] full course"
-- **Practice Coding:** https://www.hackerrank.com
-- **AWS Free Tier:** https://aws.amazon.com/free
-- **GitHub:** https://github.com (Build portfolio here)
-
-### Your Existing Resources
-
-- ✅ 100 Days of Code Python (Day 34/100) - CONTINUE
-- ✅ Original 20 Udemy courses list - REFERENCE
-
----
-
-## ✅ IMMEDIATE NEXT STEPS
-
-### This Week
-
-- [ ] Resume 100 Days Python (Day 34→40)
-- [ ] Check Sem 3 backlog status
-- [ ] Start freeCodeCamp Linux course
-- [ ] DON'T buy ₹30k AI certificate
-
-### This Month
-
-- [ ] Complete Days 34-60 of Python
-- [ ] Wait for Udemy sale (Feb 10-20)
-- [ ] Buy Java + SQL courses (₹998)
-- [ ] Build first project (Python CLI)
-
-### Next 3 Months (Sem 4)
-
-- [ ] Score 8.0+ average in all subjects
-- [ ] Finish 100 Days Python completely
-- [ ] Build 3 deployed projects
-- [ ] Reach CGPA 6.17 (cross HCLTech cutoff)
-
----
-
-## 🎯 FINAL VERDICT
-
-**This roadmap will take you from:**
-- 5.49 CGPA → 7.0 CGPA
-- 0 projects → 10 projects
-- ₹0 market value → AWS Certified + Portfolio
-- Unemployable → ₹6-8 LPA job ready
-
-**Investment Required:** ₹4,591-11,940 (vs ₹30,000 scam)  
-**Time Required:** 16 months (Feb 2026 - May 2027)  
-**Success Probability:** 80%+ (if you execute)
-
----
-
-**NOW STOP READING. START EXECUTING.** 🚀
-
----
-
-*Last Updated: January 31, 2026*  
-*Repository: Personal BCA Career Roadmap*  
-*Status: Active Development*
+This is a guide, not a contract. Steady progress and real projects matter most.
