@@ -48,7 +48,7 @@ Earn from your skills. Build toward ₹10 crore.
 
 Ideas worth building.
 
-[MetaVerseHub](Projects/MetaVerseHub/README.md) · [Its learning path](Projects/MetaVerseHub/Learning.md)
+[MetaVerseHub](Projects/MetaVerseHub/README.md) · [Its learning path](Projects/MetaVerseHub/Learning.md) · [Yojana Sathi: skill videos](Projects/Yojna%20sathi%20skill%20videos/README.md)
 
 ### Life
 
